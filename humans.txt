@@ -1,0 +1,14 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    not lazy_boozer
+
+# THANKS
+
+    lazy_boozer for being a fuck
+
+# TECHNOLOGY COLOPHON
+
+    CSS3, HTML5, Depression and alcohol
