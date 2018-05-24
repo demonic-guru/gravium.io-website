@@ -182,10 +182,17 @@ textarea {
     color: #007562;
     background-color: #00D1B2;
     width: 100%;
+    box-shadow: 0px 0px 20px 2px rgba(0, 0, 0, 0.4);
+    
+
   }
   .open {
     display: block;
     margin-top: 2em;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    margin-top: 0;
   }
   .open .logo {
     position: absolute;
@@ -350,8 +357,8 @@ footer {
     width: 70%;
   }
   .scroll {
-    background-color: rgba(0, 117, 98, 0.514);
-    padding: 1em 3em;
+    background-color: rgb(0, 209, 178);
+    padding: 4em 3em;
     transition: 0.3s all ease;
   }
   .scroll .logo {
@@ -363,6 +370,8 @@ footer {
   }
   .header__nav ul {
     width: 100%;
+    transform: translate(-50%, -120%) skew(0,2deg);
+    margin-top: 2em;
   }
   .header__nav li {
     list-style: none;
@@ -383,14 +392,15 @@ footer {
   header {
     display: flex;
     justify-content: flex-end;
-    transform: translate(0, 0);
+    transform: translate(0, 0) skew(0deg, -2deg);
     text-align: center;
     left: 0;
     right: 0;
     top: 0;
     z-index: 100;
     height: 0px;
-    padding: 2em 3em;
+    margin-top: -2em;
+    padding: 4em 3em;
     width: unset;
   }
   .title {
