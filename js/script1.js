@@ -6,6 +6,8 @@ particlesJS.load('particles-js', 'assets/particles.json', function () {
 const btns = document.querySelectorAll('.js-btn');
 const sections = document.querySelectorAll('.js-section');
 
+var currentSettings = zenscroll.setup()
+zenscroll.setup(currentSettings.defaultDuration, 50);
 
 btns[0].addEventListener('click', () => {
   zenscroll.to(sections[0]);
@@ -55,8 +57,7 @@ mobileBtn.addEventListener('click', () => {
   document.getElementById('header').classList.toggle('open');
 })
 
-for(var i = 0; i < btns.length; i++)
-{
+for (var i = 0; i < btns.length; i++) {
   btns[i].addEventListener('click', () => {
     document.getElementById('header').classList.remove('open');
 
