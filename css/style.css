@@ -23,6 +23,10 @@ body,
   scroll-behavior: smooth
 }
 
+.js-btn{
+  cursor: pointer !important;
+}
+
 /*
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301
