@@ -3,6 +3,17 @@ particlesJS.load('particles-js', 'assets/particles.json', function () {
   console.log('callback - particles.js config loaded');
 });
 
+
+var animation_logo = {
+  container: document.getElementById("logo"),
+  renderer: 'svg',
+  loop: false,
+  autoplay: true,
+  path: "./js/data.json"
+}
+
+var anim = bodymovin.loadAnimation(animation_logo);
+
 const btns = document.querySelectorAll('.js-btn');
 const sections = document.querySelectorAll('.js-section');
 
